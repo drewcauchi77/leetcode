@@ -1,0 +1,26 @@
+/**
+ * @param {number[]} students
+ * @param {number[]} sandwiches
+ * @return {number}
+ */
+
+var countStudents = function(students, sandwiches) {
+    while(students.length > 0 && students.indexOf(sandwiches[0]) !== -1) {
+        if(students[0] == sandwiches[0]) {
+            students.shift();
+            sandwiches.shift();
+        } else {
+            students.push(students.shift());
+        }
+    }
+
+    return students.length;
+};
+
+// Tests
+console.log(countStudents([1,1,0,0], [0,1,0,1]));
+console.log(countStudents([1,1,1,0,0,1], [1,0,0,0,1,1]));
+
+// Submitted 08 April 2024 21:23
+// Runtime 46ms - beats 89.62%;
+// Memory 48.75MB - beats 71.90%

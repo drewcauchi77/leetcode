@@ -17,8 +17,8 @@ var maxDepth = function(s) {
 };
 
 // Test cases
-maxDepth("(1+(2*3)+((8)/4))+1");
-maxDepth("(1)+((2))+(((3)))");
+console.log(maxDepth("(1+(2*3)+((8)/4))+1"));
+console.log(maxDepth("(1)+((2))+(((3)))"));
 
 // Submitted 04 April 2024 18:54
 // Runtime 44ms - beats 94.78%;

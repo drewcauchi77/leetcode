@@ -26,9 +26,9 @@ var minRemoveToMakeValid = function(s) {
 };
 
 // Test cases
-minRemoveToMakeValid("lee(t(c)o)de)");
-minRemoveToMakeValid("a)b(c)d");
-minRemoveToMakeValid("))((");
+console.log(minRemoveToMakeValid("lee(t(c)o)de)"));
+console.log(minRemoveToMakeValid("a)b(c)d"));
+console.log(minRemoveToMakeValid("))(("));
 
 // Submitted 06 April 2024 18:16
 // Runtime 76ms - beats 61.97%;

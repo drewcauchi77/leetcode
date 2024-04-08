@@ -18,9 +18,9 @@ var makeGood = function(s) {
 };
 
 // Test cases
-makeGood("leEeetcode");
-makeGood("abBAcC");
-makeGood("s");
+console.log(makeGood("leEeetcode"));
+console.log(makeGood("abBAcC"));
+console.log(makeGood("s"));
 
 // Submitted 05 April 2024 21:49
 // Runtime 53ms - beats 83.66%;
