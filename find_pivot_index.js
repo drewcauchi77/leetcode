@@ -22,3 +22,7 @@ var pivotIndex = function(nums) {
 console.log(pivotIndex([1,7,3,6,5,6]));
 console.log(pivotIndex([1,2,3]));
 console.log(pivotIndex([2,1,-1]));
+
+// Submitted 26 April 2024 16:30
+// Runtime 68ms - beats 53.55%;
+// Memory 50.26MB - beats 99.95%
