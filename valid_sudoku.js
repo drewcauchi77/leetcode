@@ -1,3 +1,5 @@
+// Arrays & Hashing
+
 /**
  * @param {character[][]} board
  * @return {boolean}

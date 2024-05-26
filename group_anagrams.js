@@ -1,3 +1,5 @@
+// Arrays & Hashing
+
 /**
  * @param {string[]} strs
  * @return {string[][]}
